@@ -1,0 +1,147 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header{
+ text-align: center;
+}
+
+.team-img{
+  margin-top: 96px;
+  background-color: black;
+
+border-radius: 50%;    
+}
+.team-h3{
+display: block;
+margin-top: 40px;
+font-family: Poppins;
+font-size: 36px;
+font-weight: 600;
+}
+.team-small{
+  margin-top: 8px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;  
+opacity: 0.7;
+}
+
+.team-p{
+  display: flex;
+  justify-content: center;
+}
+.team_p{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  
+  width: 400px;
+height: 72px;
+top: 650px;
+left: 547px;
+gap: 0px;
+opacity: 70%;
+
+  
+}
+.team_icons{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+ gap: 27px;
+}
+.team_icons-link{   
+    width:30px;
+    height: 30px;
+}
+.icon__1:hover{
+background-color: rgb(17, 118, 242);
+}
+.icon__2:hover{
+  background-color: rgb(56, 168, 224); 
+}
+.icon__3:hover{
+  background-color: rgb(209, 36, 79);
+}
+.icon__0:hover{
+  border-radius: 50%;
+  transition:2s;
+  transform: translateY(13px); 
+  cursor: pointer;
+}
+.s-e-t-i-o-n_{
+  margin-top: 96px; padding-left: 100px;
+  width: 1300px;
+height: 581px;
+top: 866px;
+ background: rgba(236, 248, 249, 1);
+}
+
+.section-tex{
+padding-top: 19px;
+font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 58px;
+text-align: left;
+}
+.smlall-sections{
+  display: flex; 
+
+}
+.smlall-sections{
+  display: flex;
+  gap: 22px;
+}
+.s-e-t-i-o-n_-{
+  padding-top: 96px;
+}
+
+.smlall-sections-laft{
+margin-top: 48px;
+  width: 624px;
+height: 248px;
+top: 1103px;
+left: 160px;
+gap: 0px;
+opacity: 0px;
+background: rgba(255, 255, 255, 1);
+
+}
+.smlall-sections-laft{
+  display: flex;
+gap: 22px;
+}
+.link-text{
+text-decoration: none;
+color: rgba(68, 76, 252, 1);
+
+}
+.text-small{
+  padding-top: 32px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+text-align: left;
+opacity: 0.6;
+}
+.text-h4{
+  padding-top: 8px;
+margin-bottom: 24px;
+  width: 264px;
+  height: 108px;
+font-family: Poppins;
+font-size: 25px;
+font-weight: 600;
+line-height: 36px;
+text-align: left;
+}
+
+ 
+ 

@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* 1440 - 2 * 120 = 1200 */
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+aside {
+  background-color: #232536;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0 28px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 32px;
+  list-style-type: none;
+}
+.nav-menu__link {
+ text-decoration: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.6;
+}
+.nav-menu__link:hover {
+  border-top: 3px solid rgba(255, 161, 85, 1);
+  padding-top: 25px;
+  opacity: 1;
+}
+
+.nav-btn__link {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(255, 211, 175, 1);
+  text-decoration: none;
+}
+
+  /* background-color: red; */
+
+.footer-top-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 64px;
+  /* background-color: yellow; */
+}
+
+.footer-icon{
+  margin-bottom: 32px;
+}
+
+.footer-txt{
+  width: 455px;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #232536;
+}
+.lets-talk{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 28px;
+}
+.txt{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 4px;
+}
+.email{
+  margin-bottom: 14px;
+}
+hr{
+  width: 268px;
+  margin-bottom: 16px;
+}
+.about{
+  width: 206px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.right-item{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.ul-box{
+  display: flex;
+  column-gap: 59px;
+  margin-bottom: 92px;
+  margin-right: 117px;
+}
+ul{
+  list-style: none;
+}
+li{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.ul-title{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.footer-bottom-item{
+  height: 80px;
+  background-color: #FFE6D2;
+}
+.footer-bottom-item-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+path{
+  fill: #232536;
+}
+.logo{
+  display: flex;
+  column-gap: 42px;
+}
+
+.bottom-item-txt{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.social-networks{
+  display: flex;
+  column-gap: 26.66px;
+}
